@@ -1,0 +1,7 @@
+salesforce.StaticResource accounts {
+  cacheControl = "Private"
+  contentType = "text/csv"
+  fullName = "accounts"
+  content = file("salesforce/Records/StaticResource/accounts.csv")
+  _alias = "accounts"
+}
