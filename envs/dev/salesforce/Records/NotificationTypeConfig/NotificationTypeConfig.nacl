@@ -160,35 +160,14 @@ salesforce.NotificationTypeConfig NotificationTypeConfig {
         desktopEnabled = true
         mobileEnabled = false
       }
-      notificationType = "learning_item_completion"
+      notificationType = "invoice_generation"
     },
     {
       notificationChannels = {
         desktopEnabled = true
         mobileEnabled = false
       }
-      notificationType = "learning_item_due"
-    },
-    {
-      notificationChannels = {
-        desktopEnabled = true
-        mobileEnabled = false
-      }
-      notificationType = "learning_item_milestone_due"
-    },
-    {
-      notificationChannels = {
-        desktopEnabled = true
-        mobileEnabled = false
-      }
-      notificationType = "learning_item_not_started"
-    },
-    {
-      notificationChannels = {
-        desktopEnabled = true
-        mobileEnabled = false
-      }
-      notificationType = "learning_item_start"
+      notificationType = "ls_metadata_record_update"
     },
     {
       notificationChannels = {

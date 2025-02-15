@@ -12,6 +12,7 @@ salesforce.CustomApplication standard__FlowsApp {
     "standard-home",
     "standard-FlowRecord",
     "standard-FlowOrchestration",
+    "standard-Monitor",
   ]
   uiType = "Lightning"
   utilityBar = "FlowsApp_UtilityBar"

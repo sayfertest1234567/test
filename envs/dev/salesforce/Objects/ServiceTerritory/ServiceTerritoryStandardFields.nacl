@@ -60,6 +60,10 @@ type salesforce.ServiceTerritory {
     updateable = true
     queryable = true
   }
+  salesforce.Lookup PricebookId {
+    apiName = "ServiceTerritory.PricebookId"
+    _hidden_value = true
+  }
   salesforce.Url SelfCheckInUrl {
     apiName = "ServiceTerritory.SelfCheckInUrl"
     label = "Self Check In URL"
