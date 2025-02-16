@@ -97,19 +97,19 @@ salesforce.SearchSettings {
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "BatchJob"
+        name = salesforce.BatchJob
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "BatchJobPart"
+        name = salesforce.BatchJobPart
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "BatchJobPartFailedRecord"
+        name = salesforce.BatchJobPartFailedRecord
         resultsPerPageCount = 25
       },
       {
