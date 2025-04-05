@@ -1140,13 +1140,6 @@ type salesforce.User {
     updateable = true
     queryable = true
   }
-  salesforce.Checkbox UserPreferencesBRELookupTableWelcomeMat {
-    apiName = "User.UserPreferencesBRELookupTableWelcomeMat"
-    label = "BRELookupTableWelcomeMat"
-    createable = true
-    updateable = true
-    queryable = true
-  }
   salesforce.Checkbox UserPreferencesShowForecastingRoundedAmounts {
     apiName = "User.UserPreferencesShowForecastingRoundedAmounts"
     label = "ShowForecastingRoundedAmounts"

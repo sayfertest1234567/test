@@ -96,6 +96,48 @@ salesforce {
           metadataType = "DigitalExperienceBundle"
           name = "enablement/sfdcEnablement_EnablementWorkspace"
         },
+        {
+          metadataType = "DecisionTable"
+        },
+        {
+          metadataType = "DecisionTableDatasetLink"
+        },
+        {
+          metadataType = "BatchProcessJobDefinition"
+        },
+        {
+          metadataType = "ExpressionSetMessageToken"
+        },
+        {
+          metadataType = "ExplainabilityMsgTemplate"
+        },
+        {
+          metadataType = "ExpressionSetObjectAlias"
+        },
+        {
+          metadataType = "DecisionMatrixDefinition"
+        },
+        {
+          metadataType = "DecisionMatrixDefinitionVersion"
+        },
+        {
+          metadataType = "ExpressionSetDefinition"
+        },
+        {
+          metadataType = "ExpressionSetDefinitionVersion"
+        },
+        {
+          metadataType = "BusinessProcessTypeDefinition"
+        },
+        {
+          metadataType = "ApplicationSubtypeDefinition"
+        },
+        {
+          metadataType = "ExplainabilityActionDefinition"
+        },
+        {
+          metadataType = "ExplainabilityActionVersion"
+        },
       ]
     }
     fetchAllCustomSettings = false
