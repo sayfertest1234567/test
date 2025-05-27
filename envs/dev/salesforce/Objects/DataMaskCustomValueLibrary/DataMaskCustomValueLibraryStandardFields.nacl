@@ -30,7 +30,6 @@ type salesforce.DataMaskCustomValueLibrary {
     restricted = true
     _required = true
     label = "Type"
-    _hidden_value = true
   }
   serviceid Id {
     apiName = "DataMaskCustomValueLibrary.Id"

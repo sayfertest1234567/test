@@ -16,6 +16,7 @@ salesforce.AnalyticsSettings {
   enableAzureDLGen2OutputConnector = false
   enableCreateLegacyDataflows = true
   enableCrtSetupLightningUiPref = true
+  enableDashboardCmpRefreshPref = false
   enableDashboardComponentSnapshot = false
   enableDashboardFlexiTable = true
   enableDataCloudReportingPref = true
@@ -49,6 +50,7 @@ salesforce.AnalyticsSettings {
   enableSFXJoinedReportsEnable = false
   enableSalesforceOutputConnector = false
   enableSecureImageSharing = false
+  enableShowHighContrastChart = false
   enableSnowflakeOutputConnector = false
   enableSummaryFilterOrgPref = false
   enableTableauHyperOutputConnector = false

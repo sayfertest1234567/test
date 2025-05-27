@@ -2,7 +2,6 @@ type salesforce.ServiceTerritory {
   salesforce.Address Address {
     apiName = "ServiceTerritory.Address"
     label = "Address"
-    _hidden_value = true
   }
   salesforce.LongTextArea Description {
     apiName = "ServiceTerritory.Description"
@@ -41,7 +40,6 @@ type salesforce.ServiceTerritory {
   }
   salesforce.Lookup PricebookId {
     apiName = "ServiceTerritory.PricebookId"
-    _hidden_value = true
   }
   salesforce.Url SelfCheckInUrl {
     apiName = "ServiceTerritory.SelfCheckInUrl"
@@ -56,7 +54,6 @@ type salesforce.ServiceTerritory {
     apiName = "ServiceTerritory.TopLevelTerritoryId"
     relationshipName = "TopLevelTerritory"
     label = "Top-Level Territory ID"
-    _hidden_value = true
   }
   salesforce.Number TypicalInTerritoryTravelTime {
     apiName = "ServiceTerritory.TypicalInTerritoryTravelTime"
