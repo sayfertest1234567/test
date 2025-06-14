@@ -80,6 +80,13 @@ salesforce.NotificationTypeConfig NotificationTypeConfig {
     },
     {
       notificationChannels = {
+        desktopEnabled = true
+        mobileEnabled = false
+      }
+      notificationType = "credit_memo_generation"
+    },
+    {
+      notificationChannels = {
         desktopEnabled = false
         mobileEnabled = false
       }
@@ -168,6 +175,41 @@ salesforce.NotificationTypeConfig NotificationTypeConfig {
         mobileEnabled = false
       }
       notificationType = "invoice_generation"
+    },
+    {
+      notificationChannels = {
+        desktopEnabled = true
+        mobileEnabled = false
+      }
+      notificationType = "learning_item_completion"
+    },
+    {
+      notificationChannels = {
+        desktopEnabled = true
+        mobileEnabled = false
+      }
+      notificationType = "learning_item_due"
+    },
+    {
+      notificationChannels = {
+        desktopEnabled = true
+        mobileEnabled = false
+      }
+      notificationType = "learning_item_milestone_due"
+    },
+    {
+      notificationChannels = {
+        desktopEnabled = true
+        mobileEnabled = false
+      }
+      notificationType = "learning_item_not_started"
+    },
+    {
+      notificationChannels = {
+        desktopEnabled = true
+        mobileEnabled = false
+      }
+      notificationType = "learning_item_start"
     },
     {
       notificationChannels = {
