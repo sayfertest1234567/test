@@ -7,6 +7,7 @@ salesforce.ApexSettings {
   enableAuraApexCtrlAuthUserAccessCheckPref = false
   enableAuraApexCtrlGuestUserAccessCheckPref = false
   enableCompileOnDeploy = false
+  enableDebugLogsDuringDeployment = false
   enableDisableParallelApexTesting = false
   enableGaplessTestAutoNum = true
   enableMngdCtrlActionAccessPref = false

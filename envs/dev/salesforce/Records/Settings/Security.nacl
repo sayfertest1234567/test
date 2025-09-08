@@ -74,6 +74,7 @@ salesforce.SecuritySettings {
     sidToken3rdPartyAuraApp = false
     skipSFAWhenMFADirectUILogin = false
     terminateUserSessionsWhenAdminResetsPassword = false
+    untrustedRedirect = "AlwaysAllowed"
     useEAPIRateLimitForConnectAPI = false
     useLocalStorageForLogoutUrl = false
   }
